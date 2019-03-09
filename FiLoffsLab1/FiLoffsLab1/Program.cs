@@ -10,19 +10,33 @@ namespace Lesson5SummInCursive1
     {
         static void Main(string[] args)
         {
-            //int N = 
-            //string
+            task16();
+            
+        }
+
+        public static void task16()
+        {
             int[] deposit = { 25, 454, 322, 34, 56 };
+            int[] TwoInctrase = deposit;
             int a = 0, sum = 0;
             foreach (var item in deposit)
             {
                 Console.Write($"{item}\t");
                 a = item * 2;
-                Console.Write($"{a}\t");
+                TwoInctrase[item] = a;
                 sum += item;
-                Console.Write($"{sum}\t");
+                
             }
+
             Console.WriteLine();
+
+            foreach (var item in TwoInctrase)
+            {
+                Console.Write($"{item}\t");
+            }
+
+            Console.WriteLine();
+            Console.Write($"{sum}\t");
         }
     }
 }

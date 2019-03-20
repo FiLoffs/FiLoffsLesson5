@@ -16,6 +16,7 @@ namespace Lesson5Konspect1
                 A[i] = rnd.Next(1, 100);
         }//CreateOneDimAr
 
+
         public static void PrintAr1(string name, int[] A)
         {
             Console.WriteLine(name);

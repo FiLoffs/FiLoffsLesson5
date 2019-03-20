@@ -31,6 +31,7 @@ namespace Lesson5Konspect1
             Arrs.PrintAr1("A", A); Arrs.PrintAr1("B", B);
             Arrs.PrintAr1("C", C); Arrs.PrintAr1("X", x);
             Arrs.PrintAr1("U", u); Arrs.PrintAr1("V", v);
+            Console.WriteLine();
         }        
     }
 }
